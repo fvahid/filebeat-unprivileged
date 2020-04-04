@@ -51,7 +51,7 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: spec.nodeName
-              image: docker-registry.default.svc:5000/atlassian-suite/filebeat:7
+              image: docker-registry.default.svc:5000/filebeat-project/filebeat:7
         imagePullPolicy: IfNotPresent
         resources:
           limits:
